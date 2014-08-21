@@ -1258,7 +1258,7 @@ public abstract class EditResourcePopupVc extends AppPopUp implements SelectionH
 											if(resourceEducationalLabel.getText()!=null ||!resourceEducationalLabel.getText().trim().equalsIgnoreCase(""))
 											{
 												if(!resourceEducationalLabel.getText().trim().equalsIgnoreCase(DEFAULT_COMBO_BOX_TEXT)){
-													tagList.add("Educational Use : "+resourceEducationalLabel.getText());
+													tagList.add("Educational Use: "+resourceEducationalLabel.getText());
 												}
 												
 												
